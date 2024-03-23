@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.userway.org/widget.js" data-account="TQ7s1k9yh1"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+    <title>Learn Roblox Studio Programming</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Suez One', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #25274d;
+            color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffac41;
+        }
+
+        .course-card {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            z-index: 2; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+            z-index: 2;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #25274d;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        h2 {
+            color: #25274d;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #25274d;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        .resource-img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .resource-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .resources {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .resource {
+            flex: 0 1 calc(33.33% - 20px);
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .resource:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @media only screen and (max-width: 768px) {
+            .resource {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .resource {
+                flex-basis: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h1>תכנות ברובלוקס סטודיו</h1>
+            <ul>
+                <li><a href="index.html">דף ראשי</a></li>
+                <li><a href="lesson.html">קורסים</a></li>
+                <li><a href="#resources">משאבים</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="home" class="container" style="background-color: gray; height: auto; size: 100%;">
+        <h1 style="text-align: center; font-size: 3em; color:#0056b3; font-family: 'Rubik'; font-weight: 600; font-style: normal;">אתר למידת תכנות בלואה יו</h1>
+        <h1 style="text-align: center; font-family: 'Courier New', Courier, monospace;">פרויקט לקידום הבנה בשפה</h1>
+    </div>
+    <img src="pic1.png" alt="" width="400px" style="float: left; padding-left: 20px; overflow: hidden; position: sticky; z-index: 2;">
+
+    <div id="courses" class="container">
+        <h2 style="font-size: 30px; color: blue;">קורסים זמינים(בחינם!)</h2>
+            <div class="course-card">
+                <h3>מבוא לסקריפטים</h3>
+                <p>קורס ידידי ונחמד על הבסיס והמבוא לסקריפטים</p>
+                <a href="intro_to_scripting.html">למד עוד</a>
+            </div>
+            <div class="course-card">
+                <h3>מדריכים מתקדמים</h3>
+                <p>קח את הרמת ידע שלך ותשפר אותה</p>
+                <a href="lesson.html">למד עוד</a>
+            </div>
+        </div>
+    
+        <div id="resources" class="container">
+            <h2 style="text-align: center; font-size: 40px;">קישורים חיצוניים</h2>
+            <div class="resources">
+                <div class="resource">
+                    <h3>Roblox Developer Hub</h3>
+                    <p>האתר הרשמי של רובלוקס סטודיו, כל המדריכים וההסברים נמצאים שם</p>
+                    <a href="https://create.roblox.com/docs/studio" target="_blank">לבקר</a>
+                </div>
+                <div class="resource">
+                    <h3>Roblox Developer Forum</h3>
+                    <p>פורום של תקשורת ועזרה עם מפתחים אחרים, וגם מקום ללמידה</p>
+                    <a href="https://devforum.roblox.com/" target="_blank">לבקר</a>
+                </div>
+            </div>
+    
+            <footer style="margin: 0; position: unset; width: auto; height: auto;">
+                <p>נוצר על ידי Roblox Studio IL</p>
+            </footer>
+        </div>
+    </body>
+</html>
